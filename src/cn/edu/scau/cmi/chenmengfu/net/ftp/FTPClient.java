@@ -88,10 +88,10 @@ public class FTPClient {
 				sendCmd(orders);
 				getReply();
 				break;
-			} else if ("RETR".equals(arg)) {
+			} else if ("RETR".equalsIgnoreCase(arg)) {
 				retr(orders);
 				continue;
-			}else if("STOR".equals(arg)) {
+			}else if("STOR".equalsIgnoreCase(arg)) {
 				stor(orders,order[1]);
 				continue;
 			}
@@ -136,7 +136,8 @@ public class FTPClient {
 	 * @return
 	 */
 	private static String prepareFile(String fileName) {
-		File file = new File(myPath+File.pathSeparator+fileName);
+		File file = new File(myPath+File.separator+fileName);
+		System.out.println(file);
 		StringBuilder builder = new StringBuilder();
 		char[] bu=new char[1024];
 		int len=0;
