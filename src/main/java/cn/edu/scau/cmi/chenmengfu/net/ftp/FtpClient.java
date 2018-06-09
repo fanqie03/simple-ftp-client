@@ -14,7 +14,7 @@ import java.util.Scanner;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-/**
+/** 
  * 
  * @author mfchen1996@hotmail.com
  *
@@ -124,12 +124,13 @@ public class FtpClient {
 	 * @throws UnknownHostException
 	 * @throws IOException
 	 */
-	private static void retrWithPasv(String orders) throws UnknownHostException, IOException {
+	public static void retrWithPasv(String orders) throws UnknownHostException, IOException {
 		sendCmd(PASV);
 		String reply = getReply();
 		int port = Util.parsePort(reply);
 		Socket socket = new Socket(host, port);
 		sendCmd(orders);
+		getReply();
 		StringBuilder builder = new StringBuilder();
 		String temp = null;
 		BufferedReader reader = new BufferedReader(new InputStreamReader(socket.getInputStream()));
@@ -140,6 +141,7 @@ public class FtpClient {
 		logger.debug(buf);
 		saveFile(orders);
 		socket.close();
+		getReply();
 	}
 
 	/**
@@ -149,7 +151,7 @@ public class FtpClient {
 	 *            包含文件名的指令
 	 * @throws IOException
 	 */
-	private static void saveFile(String orders) throws IOException {
+	public static void saveFile(String orders) throws IOException {
 		String[] o = orders.split(" ");
 		File file = new File(myPath + File.separator + o[1]);
 		if (!file.exists()) {
@@ -168,7 +170,7 @@ public class FtpClient {
 	 * @return
 	 * @throws FileNotFoundException
 	 */
-	private static String prepareFile(String fileName) throws FileNotFoundException {
+	public static String prepareFile(String fileName) throws FileNotFoundException {
 		File file = new File(myPath + File.separator + fileName);
 		logger.debug(file.toString());
 		if (!file.exists()) {
@@ -191,7 +193,7 @@ public class FtpClient {
 		return builder.toString();
 	}
 
-	private static void storWithPasv(String orders, String fileName) throws UnknownHostException, IOException {
+	public static void storWithPasv(String orders, String fileName) throws UnknownHostException, IOException {
 		buf = prepareFile(fileName);
 		sendCmd(PASV);
 		String reply = getReply();
@@ -210,11 +212,11 @@ public class FtpClient {
 	/**
 	 * 获得服务端的回复
 	 */
-	private static String getReply() {
+	public static String getReply() {
 		return getReply(reader);
 	}
 
-	private static String getReply(BufferedReader bufferedReader) {
+	public static String getReply(BufferedReader bufferedReader) {
 		try {
 			String reply = bufferedReader.readLine();
 			logger.debug("<< {} : {}", Thread.currentThread().getName(), reply);
@@ -232,7 +234,7 @@ public class FtpClient {
 	 * @param orders
 	 *            指令
 	 */
-	private static void sendCmd(String orders) {
+	public static void sendCmd(String orders) {
 		send(writer, orders);
 	}
 

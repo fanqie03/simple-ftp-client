@@ -14,7 +14,7 @@ import org.junit.Test;
  */
 
 public class FtpClientTest {
-	@Test
+	@Test 
 	public void testServerSocket() throws IOException {
 		ServerSocket serverSocket = new ServerSocket(0);
 		System.out.println(serverSocket);
@@ -32,5 +32,9 @@ public class FtpClientTest {
 		int port = Util.parsePort(reply);
 		assertEquals(30422, port);
 
+	}
+	@Test
+	public void testFlow() {
+		
 	}
 }

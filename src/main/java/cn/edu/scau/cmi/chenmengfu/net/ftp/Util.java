@@ -4,7 +4,7 @@ package cn.edu.scau.cmi.chenmengfu.net.ftp;
 * @version create time：2018年6月9日 下午1:05:18
 */
 public class Util {
-	/**
+	/** 
 	 * "227 Entering Passive Mode (172,26,14,30,118,214)."-->30422
 	 * @param orders
 	 * @return
