@@ -1,0 +1,349 @@
+2018-06-09 09:16:17,395 - my ip addr : 192.168.79.1
+2018-06-09 09:16:55,026 - my ip addr : 192.168.79.1
+2018-06-09 09:16:55,028 - << main : 220 (vsFTPd 2.0.5)
+2018-06-09 09:17:44,972 - my ip addr : 192.168.79.1
+2018-06-09 09:17:44,974 - << main : 220 (vsFTPd 2.0.5)
+2018-06-09 09:18:14,499 - >> main : user a201527010406
+
+2018-06-09 09:18:14,500 - << main : 331 Please specify the password.
+2018-06-09 09:18:21,826 - >> main : pass root
+
+2018-06-09 09:18:21,842 - << main : 230 Login successful.
+2018-06-09 09:18:36,989 - >> main : mkd test
+
+2018-06-09 09:18:36,990 - << main : 257 "/home/a201527010406/test" created
+2018-06-09 09:18:41,214 - >> main : rmd test
+
+2018-06-09 09:18:41,215 - << main : 250 Remove directory operation successful.
+2018-06-09 09:19:56,365 - prepare port : PORT 192,168,79,1,23,58
+2018-06-09 09:19:56,366 - >> main : PORT 192,168,79,1,23,58
+
+2018-06-09 09:19:56,366 - >> main : retr test2
+
+2018-06-09 09:19:56,463 - << main : 200 PORT command successful. Consider using PASV.
+2018-06-09 09:20:54,502 - prepare port : PORT 192,168,79,1,23,58
+2018-06-09 09:20:54,502 - >> main : PORT 192,168,79,1,23,58
+
+2018-06-09 09:20:54,502 - >> main : stor test1
+
+2018-06-09 09:20:54,503 - << main : 150 Opening BINARY mode data connection for test2 (819 bytes).
+2018-06-09 09:20:54,504 - << main : 226 File send OK.
+2018-06-09 10:17:00,453 - my ip addr : 192.168.79.1
+2018-06-09 10:17:00,457 - << main : 220 (vsFTPd 2.0.5)
+2018-06-09 10:17:07,451 - >> main : user a201527010406
+
+2018-06-09 10:17:07,452 - << main : 331 Please specify the password.
+2018-06-09 10:17:11,546 - >> main : pass root
+
+2018-06-09 10:17:11,562 - << main : 230 Login successful.
+2018-06-09 10:17:14,318 - >> main : quit
+
+2018-06-09 10:17:14,319 - << main : 221 Goodbye.
+2018-06-09 10:17:34,089 - my ip addr : 192.168.79.1
+2018-06-09 10:17:34,091 - << main : 220 (vsFTPd 2.0.5)
+2018-06-09 10:17:43,984 - >> main : user a201527010406
+
+2018-06-09 10:17:43,985 - << main : 331 Please specify the password.
+2018-06-09 10:17:46,319 - >> main : pass root
+
+2018-06-09 10:17:46,326 - << main : 230 Login successful.
+2018-06-09 10:17:52,301 - >> main : mkd tst
+
+2018-06-09 10:17:52,303 - << main : 257 "/home/a201527010406/tst" created
+2018-06-09 10:17:57,662 - >> main : rmd tst
+
+2018-06-09 10:17:57,663 - << main : 250 Remove directory operation successful.
+2018-06-09 10:18:42,262 - C:\Users\Skiner\test1
+2018-06-09 10:18:42,272 - prepare port : PORT 192,168,79,1,14,106
+2018-06-09 10:18:42,273 - >> main : PORT 192,168,79,1,14,106
+
+2018-06-09 10:18:42,273 - >> main : stor test1
+
+2018-06-09 10:18:42,273 - << main : 200 PORT command successful. Consider using PASV.
+2018-06-09 10:19:43,786 - << main : 425 Failed to establish connection.
+2018-06-09 10:19:43,787 - prepare port : PORT 192,168,79,1,14,106
+2018-06-09 10:19:43,787 - >> main : PORT 192,168,79,1,14,106
+
+2018-06-09 10:19:43,787 - >> main : retr test2
+
+2018-06-09 10:19:43,791 - << main : 200 PORT command successful. Consider using PASV.
+2018-06-09 10:31:15,050 - my ip addr : 192.168.79.1
+2018-06-09 10:31:15,057 - << main : 220 (vsFTPd 2.0.5)
+2018-06-09 10:31:30,334 - >> main : user a201527010406
+
+2018-06-09 10:31:30,335 - << main : 331 Please specify the password.
+2018-06-09 10:31:33,773 - >> main : pass root
+
+2018-06-09 10:31:33,793 - << main : 230 Login successful.
+2018-06-09 10:31:39,518 - >> main : mkd test
+
+2018-06-09 10:31:39,519 - << main : 257 "/home/a201527010406/test" created
+2018-06-09 10:31:43,598 - >> main : rmd test
+
+2018-06-09 10:31:43,600 - << main : 250 Remove directory operation successful.
+2018-06-09 10:31:56,503 - C:\Users\Skiner\test1
+2018-06-09 10:31:56,505 - prepare port : PORT 192,168,79,1,49,205
+2018-06-09 10:31:56,505 - >> main : PORT 192,168,79,1,49,205
+
+2018-06-09 10:31:56,506 - >> main : stor test1
+
+2018-06-09 10:31:56,506 - << main : 200 PORT command successful. Consider using PASV.
+2018-06-09 10:32:57,861 - << main : 425 Failed to establish connection.
+2018-06-09 10:32:57,862 - prepare port : PORT 192,168,79,1,49,205
+2018-06-09 10:32:57,862 - >> main : PORT 192,168,79,1,49,205
+
+2018-06-09 10:32:57,863 - >> main : retr test1
+
+2018-06-09 10:32:57,866 - << main : 200 PORT command successful. Consider using PASV.
+2018-06-09 10:32:57,867 - prepare port : PORT 192,168,79,1,49,205
+2018-06-09 10:32:57,867 - >> main : PORT 192,168,79,1,49,205
+
+2018-06-09 10:32:57,867 - >> main : retr test2
+
+2018-06-09 10:33:59,435 - << main : 425 Failed to establish connection.
+2018-06-09 10:34:22,725 - prepare port : PORT 192,168,79,1,49,205
+2018-06-09 10:34:22,726 - >> main : PORT 192,168,79,1,49,205
+
+2018-06-09 10:34:22,726 - >> main : retr test2
+
+2018-06-09 10:34:22,729 - << main : 200 PORT command successful. Consider using PASV.
+2018-06-09 10:45:41,520 - my ip addr : 192.168.79.1
+2018-06-09 10:45:41,523 - << main : 220 (vsFTPd 2.0.5)
+2018-06-09 10:45:48,741 - >> main : user a201527010406
+
+2018-06-09 10:45:48,742 - << main : 331 Please specify the password.
+2018-06-09 10:45:51,405 - >> main : pass root
+
+2018-06-09 10:45:51,414 - << main : 230 Login successful.
+2018-06-09 10:45:56,517 - >> main : mkd test
+
+2018-06-09 10:45:56,518 - << main : 257 "/home/a201527010406/test" created
+2018-06-09 10:45:58,869 - >> main : rmd test
+
+2018-06-09 10:45:58,870 - << main : 250 Remove directory operation successful.
+2018-06-09 10:46:04,927 - C:\Users\Skiner\test1
+2018-06-09 10:46:04,929 - prepare port : PORT 192,168,79,1,12,190
+2018-06-09 10:46:04,929 - >> main : PORT 192,168,79,1,12,190
+
+2018-06-09 10:46:04,929 - >> main : stor test1
+
+2018-06-09 10:46:04,930 - << main : 200 PORT command successful. Consider using PASV.
+2018-06-09 10:47:06,767 - << main : 425 Failed to establish connection.
+2018-06-09 10:53:42,961 - my ip addr : 192.168.79.1
+2018-06-09 10:53:42,964 - << main : 220 (vsFTPd 2.0.5)
+2018-06-09 10:53:50,942 - >> main : user a201527010406
+
+2018-06-09 10:53:50,943 - << main : 331 Please specify the password.
+2018-06-09 10:53:55,108 - >> main : pass root
+
+2018-06-09 10:53:55,127 - << main : 230 Login successful.
+2018-06-09 10:54:04,493 - >> main : mkd test
+
+2018-06-09 10:54:04,494 - << main : 257 "/home/a201527010406/test" created
+2018-06-09 10:54:06,660 - >> main : rmd test
+
+2018-06-09 10:54:06,661 - << main : 250 Remove directory operation successful.
+2018-06-09 10:54:17,852 - C:\Users\Skiner\test1
+2018-06-09 10:54:17,854 - prepare port : PORT 192,168,79,1,42,83
+2018-06-09 10:54:17,854 - >> main : PORT 192,168,79,1,42,83
+
+2018-06-09 10:54:17,855 - >> main : stor test1
+
+2018-06-09 10:54:17,855 - << main : 200 PORT command successful. Consider using PASV.
+2018-06-09 10:55:19,073 - << main : 425 Failed to establish connection.
+2018-06-09 10:56:15,747 - my ip addr : 192.168.79.1
+2018-06-09 10:56:15,750 - << main : 220 (vsFTPd 2.0.5)
+2018-06-09 10:56:23,669 - >> main : user a201527010406
+
+2018-06-09 10:56:23,670 - << main : 331 Please specify the password.
+2018-06-09 10:56:28,245 - >> main : pass root
+
+2018-06-09 10:56:28,259 - << main : 230 Login successful.
+2018-06-09 10:56:38,820 - >> main : mkd root
+
+2018-06-09 10:56:38,821 - << main : 257 "/home/a201527010406/root" created
+2018-06-09 10:56:42,004 - >> main : rmd root
+
+2018-06-09 10:56:42,005 - << main : 250 Remove directory operation successful.
+2018-06-09 10:56:52,636 - C:\Users\Skiner\test1
+2018-06-09 10:56:52,638 - >> main : PORT 192,168,79,1,43,13
+
+2018-06-09 10:56:52,639 - >> main : stor test1
+
+2018-06-09 10:56:52,639 - << main : 200 PORT command successful. Consider using PASV.
+2018-06-09 10:57:54,238 - << main : 425 Failed to establish connection.
+2018-06-09 11:00:57,433 - my ip addr : 192.168.79.1
+2018-06-09 11:00:57,435 - << main : 220 (vsFTPd 2.0.5)
+2018-06-09 11:01:01,756 - >> main : user a201527010406
+
+2018-06-09 11:01:01,758 - << main : 331 Please specify the password.
+2018-06-09 11:01:05,333 - >> main : pass root
+
+2018-06-09 11:01:05,341 - << main : 230 Login successful.
+2018-06-09 11:01:17,404 - >> main : PORT 192,168,79,1,44,107
+
+2018-06-09 11:01:17,404 - >> main : retr test2
+
+2018-06-09 11:01:17,502 - << main : 200 PORT command successful. Consider using PASV.
+2018-06-09 11:03:27,234 - my ip addr : 192.168.79.1
+2018-06-09 11:03:27,236 - << main : 220 (vsFTPd 2.0.5)
+2018-06-09 11:03:31,837 - >> main : user a201527010406
+
+2018-06-09 11:03:31,838 - << main : 331 Please specify the password.
+2018-06-09 11:03:35,268 - >> main : pass root
+
+2018-06-09 11:03:35,275 - << main : 230 Login successful.
+2018-06-09 11:03:51,445 - >> main : PORT 192,168,79,1,45,18
+
+2018-06-09 11:03:51,446 - >> main : retr test2
+
+2018-06-09 11:03:51,554 - << main : 200 PORT command successful. Consider using PASV.
+2018-06-09 11:03:51,554 - prepare sub connect
+2018-06-09 11:06:13,666 - my ip addr : 192.168.79.1
+2018-06-09 11:06:13,669 - << main : 220 (vsFTPd 2.0.5)
+2018-06-09 11:06:19,324 - >> main : user a201527010406
+
+2018-06-09 11:06:19,326 - << main : 331 Please specify the password.
+2018-06-09 11:06:24,845 - >> main : pass root
+
+2018-06-09 11:06:24,853 - << main : 230 Login successful.
+2018-06-09 11:06:47,100 - >> main : PORT 192,168,79,1,45,188
+
+2018-06-09 11:06:47,100 - >> main : retr test2
+
+2018-06-09 11:06:47,191 - << main : 200 PORT command successful. Consider using PASV.
+2018-06-09 11:06:47,191 - prepare sub connect
+2018-06-09 12:03:31,677 - create server socket
+2018-06-09 12:03:31,694 - create server success. port is 1446
+2018-06-09 12:03:40,437 - my ip addr : 192.168.79.1
+2018-06-09 12:03:40,438 - << main : 220 (vsFTPd 2.0.5)
+2018-06-09 12:04:38,338 - >> main : user a201527010406
+
+2018-06-09 12:04:38,339 - << main : 331 Please specify the password.
+2018-06-09 12:04:47,711 - create server socket
+2018-06-09 12:04:47,727 - create server success. port is 1473
+2018-06-09 12:04:51,770 - my ip addr : 192.168.79.1
+2018-06-09 12:04:51,773 - << main : 220 (vsFTPd 2.0.5)
+2018-06-09 12:04:56,708 - >> main : user a201527010406
+2018-06-09 12:04:56,709 - << main : 331 Please specify the password.
+2018-06-09 12:04:59,706 - >> main : pass root
+2018-06-09 12:04:59,941 - << main : 230 Login successful.
+2018-06-09 12:05:08,825 - >> main : mkd test
+2018-06-09 12:05:08,826 - << main : 257 "/home/a201527010406/test" created
+2018-06-09 12:05:12,681 - >> main : rmd test
+2018-06-09 12:05:12,682 - << main : 250 Remove directory operation successful.
+2018-06-09 12:05:51,937 - >> main : PORT 192,168,79,1,5,193
+2018-06-09 12:05:51,938 - >> main : retr test2
+2018-06-09 12:05:52,036 - << main : 200 PORT command successful. Consider using PASV.
+2018-06-09 12:05:52,036 - prepare sub connect
+2018-06-09 12:09:19,571 - create server socket
+2018-06-09 12:09:19,588 - create server success. ip is 0.0.0.0/0.0.0.0 port is 1548
+2018-06-09 12:13:27,479 - create server socket
+2018-06-09 12:13:27,498 - create server success. ip is 0.0.0.0/0.0.0.0:1638 port is 1638
+2018-06-09 12:15:00,541 - create server socket
+2018-06-09 12:15:00,558 - create server success. ip is 0.0.0.0/0.0.0.0:1673 port is 1673
+2018-06-09 12:15:40,342 - my ip addr : 192.168.79.1
+2018-06-09 12:15:40,344 - << main : 220 (vsFTPd 2.0.5)
+2018-06-09 12:16:16,828 - >> main : user a201527010406
+2018-06-09 12:16:16,829 - << main : 331 Please specify the password.
+2018-06-09 12:16:34,803 - >> main : pass root
+2018-06-09 12:16:34,811 - << main : 230 Login successful.
+2018-06-09 12:16:42,205 - C:\Users\Skiner\test2
+2018-06-09 12:17:03,447 - create server socket
+2018-06-09 12:17:03,467 - create server success. ip is 0.0.0.0/0.0.0.0:1687 port is 1687
+2018-06-09 12:17:09,297 - my ip addr : 192.168.79.1
+2018-06-09 12:17:09,299 - << main : 220 (vsFTPd 2.0.5)
+2018-06-09 12:17:15,566 - >> main : user a201527010406
+2018-06-09 12:17:15,567 - << main : 331 Please specify the password.
+2018-06-09 12:17:17,793 - >> main : pass root
+2018-06-09 12:17:17,800 - << main : 230 Login successful.
+2018-06-09 12:17:22,242 - >> main : PORT 192,168,79,1,6,151
+2018-06-09 12:17:22,242 - >> main : retr test2
+2018-06-09 12:17:22,339 - << main : 200 PORT command successful. Consider using PASV.
+2018-06-09 12:17:22,339 - prepare sub connect
+2018-06-09 12:48:45,267 - create server socket
+2018-06-09 12:48:45,283 - create server success. ip is 0.0.0.0/0.0.0.0:2424 port is 2424
+2018-06-09 12:48:50,465 - my ip addr : 192.168.79.1
+2018-06-09 12:48:50,467 - << main : 220 (vsFTPd 2.0.5)
+2018-06-09 12:49:02,611 - >> main : user a201527010406
+2018-06-09 12:49:02,612 - << main : 331 Please specify the password.
+2018-06-09 12:49:19,460 - create server socket
+2018-06-09 12:49:19,476 - create server success. ip is 0.0.0.0/0.0.0.0:2443 port is 2443
+2018-06-09 12:49:24,271 - my ip addr : 192.168.79.1
+2018-06-09 12:49:24,273 - << main : 220 (vsFTPd 2.0.5)
+2018-06-09 12:49:29,544 - >> main : user a201527010406
+2018-06-09 12:49:29,545 - << main : 331 Please specify the password.
+2018-06-09 12:49:32,062 - >> main : pass root
+2018-06-09 12:49:32,072 - << main : 230 Login successful.
+2018-06-09 12:50:03,999 - >> main : PORT 192,168,79,1,9,139
+2018-06-09 12:50:04,000 - >> main : retr test2
+2018-06-09 12:50:04,087 - << main : 200 PORT command successful. Consider using PASV.
+2018-06-09 12:50:04,087 - prepare sub connect
+2018-06-09 13:16:13,467 - create server socket
+2018-06-09 13:16:13,485 - create server success. ip is 0.0.0.0/0.0.0.0:3108 port is 3108
+2018-06-09 13:16:19,758 - my ip addr : 192.168.79.1
+2018-06-09 13:16:19,760 - << main : 220 (vsFTPd 2.0.5)
+2018-06-09 13:16:25,110 - >> main : user a201527010406
+2018-06-09 13:16:25,111 - << main : 331 Please specify the password.
+2018-06-09 13:16:30,229 - >> main : pass root
+2018-06-09 13:16:30,238 - << main : 230 Login successful.
+2018-06-09 13:16:44,558 - >> main : PASV
+2018-06-09 13:16:44,558 - << main : 227 Entering Passive Mode (192,168,79,130,191,131)
+2018-06-09 13:16:44,562 - >> main : retr test2
+2018-06-09 13:16:44,563 - << main : this is test2
+2018-06-09 13:30:22,404 - create server socket
+2018-06-09 13:30:22,420 - create server success. ip is 0.0.0.0/0.0.0.0:3484 port is 3484
+2018-06-09 13:30:27,150 - my ip addr : 192.168.79.1
+2018-06-09 13:30:27,152 - << main : 220 (vsFTPd 2.0.5)
+2018-06-09 13:30:32,164 - >> main : user a201527010406
+2018-06-09 13:30:32,166 - << main : 331 Please specify the password.
+2018-06-09 13:30:38,974 - >> main : PASV
+2018-06-09 13:30:38,975 - << main : 530 Please login with USER and PASS.
+2018-06-09 13:30:56,389 - create server socket
+2018-06-09 13:30:56,406 - create server success. ip is 0.0.0.0/0.0.0.0:3499 port is 3499
+2018-06-09 13:31:02,284 - my ip addr : 192.168.79.1
+2018-06-09 13:31:02,285 - << main : 220 (vsFTPd 2.0.5)
+2018-06-09 13:31:06,621 - >> main : user a201527010406
+2018-06-09 13:31:06,622 - << main : 331 Please specify the password.
+2018-06-09 13:31:10,604 - >> main : pass root
+2018-06-09 13:31:10,635 - << main : 230 Login successful.
+2018-06-09 13:31:15,788 - >> main : PASV
+2018-06-09 13:31:15,789 - << main : 227 Entering Passive Mode (192,168,79,130,25,85)
+2018-06-09 13:31:15,794 - >> main : retr test2
+2018-06-09 13:33:06,293 - create server socket
+2018-06-09 13:33:06,310 - create server success. ip is 0.0.0.0/0.0.0.0:3541 port is 3541
+2018-06-09 13:33:11,598 - my ip addr : 192.168.79.1
+2018-06-09 13:33:11,599 - << main : 220 (vsFTPd 2.0.5)
+2018-06-09 13:33:16,605 - >> main : user a201527010406
+2018-06-09 13:33:16,606 - << main : 331 Please specify the password.
+2018-06-09 13:33:20,021 - >> main : pass root
+2018-06-09 13:33:20,032 - << main : 230 Login successful.
+2018-06-09 13:33:28,869 - >> main : PASV
+2018-06-09 13:33:28,870 - << main : 227 Entering Passive Mode (192,168,79,130,134,1)
+2018-06-09 13:33:28,875 - >> main : retr test2
+2018-06-09 14:18:29,160 - create server socket
+2018-06-09 14:18:29,177 - create server success. ip is 0.0.0.0/0.0.0.0:4420 port is 4420
+2018-06-09 14:18:34,468 - my ip addr : 192.168.79.1
+2018-06-09 14:18:34,470 - << main : 220 (vsFTPd 2.0.5)
+2018-06-09 14:18:40,514 - >> main : user a201527010406
+2018-06-09 14:18:40,515 - << main : 331 Please specify the password.
+2018-06-09 14:18:43,139 - >> main : pass root
+2018-06-09 14:18:43,148 - << main : 230 Login successful.
+2018-06-09 14:18:50,746 - C:\Users\Skiner\test1
+2018-06-09 14:18:50,748 - >> main : PASV
+2018-06-09 14:18:50,749 - << main : 227 Entering Passive Mode (192,168,79,130,201,3)
+2018-06-09 14:18:50,752 - >> main : stor test1
+2018-06-09 14:18:50,754 - << main : 150 Ok to send data.
+2018-06-09 14:18:50,756 - << main : 226 File receive OK.
+2018-06-09 14:19:07,402 - >> main : PASV
+2018-06-09 14:19:07,403 - << main : 227 Entering Passive Mode (192,168,79,130,249,23)
+2018-06-09 14:19:07,405 - >> main : retr test2
+2018-06-09 14:19:07,407 - this is test2
+it is a presentation
+----------------------
+english article
+---------------------
+There are four people in my family, my parents, my sister and I. My father is very strict to us. When we make mistakes, he educates us. But my mother is very gentle. When my father is angry, she always consoles my sister and I then says good words about my father. Though sometimes we have arguments, the family atmosphere is very harmonious. For parents, one must play the strict role while the other plays the gentle role. My parents educate us in the classic way. My sister and I have grown up, and we are from naughty girls to responsible adults. Now we are brave and polite. When people speak highly of us, my parents will be very happy, because it owes to their education. I am lucky to born in a harmonious family. 
+
+2018-06-09 14:19:27,834 - >> main : quit
+2018-06-09 14:19:27,835 - << main : 150 Opening BINARY mode data connection for test2 (819 bytes).
