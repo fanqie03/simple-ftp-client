@@ -4,9 +4,9 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>cn.edu.scau.cmi.chenmengfu.net.ftp</groupId>
 	<artifactId>ftp-client</artifactId>
-	<version>1.1-SNAPSHOT</version>
+	<version>1.1</version>
 	<name>simple ftp client</name>
-	<description>a synthesis experience from net class</description>
+	<description>a synthesis experience from net course</description>
 	<dependencies>
 		<dependency>
 			<groupId>org.slf4j</groupId>
