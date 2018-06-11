@@ -6,3 +6,5 @@
 可以传输简单的文本文件。
 # 思路来源
 https://blog.csdn.net/cheng_fangang/article/details/7395864
+# 结果
+![](./doc/images/display.png)
